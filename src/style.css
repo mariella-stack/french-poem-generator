@@ -1,0 +1,75 @@
+/* color palette: light rose: #F9ECEC , darker light rose:#F0D9DA , darker light blue: #C8D9EB, light blue: #ECF2F9 */
+body {
+    background-color:#F9ECEC ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    margin: 120px auto;  
+    max-width: 600px;
+    
+ }
+
+header {
+    margin-bottom: 30px;
+}
+h1 {
+    font-weight:900;
+    font-size: 36px;
+    line-height: 1.5;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+a {
+    color: black;
+    font-weight:bold;
+}
+
+form {
+    padding: 30px;
+background-color: white;
+
+border-radius: 10px;
+display: flex;
+box-shadow: 0px 20px 60px rgba (0, 0, 0, 0.2);
+margin-bottom: 30px;
+
+}
+
+.instructions {
+    padding: 16px;
+    border: 1px solid #C8D9EB ;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+}
+
+.submit {
+    border-radius: 5px;
+    background-color: #C8D9EB;
+    border: #C8D9EB;
+    padding: 14px 24px;
+    width: 150px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight:bold;
+    
+}
+
+.poem {
+    font-size: 14px;
+    background-color: white;
+    padding: 20px;
+    line-height: 24px;
+    border-left: 3px solid  #C8D9EB;
+    box-shadow: 0px 20px 60px rgba (0, 0, 0, 0.2);
+   border-radius: 5px;
+}
+
+footer {
+    
+    font-size: 13px;
+    margin-top: 30px;
+}
