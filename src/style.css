@@ -25,17 +25,23 @@ a {
     font-weight:bold;
 }
 
+.form-container {
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 60px rgba (0, 0, 0, 0.2);
+    padding: 20px;
+}
 form {
-    padding: 30px;
-background-color: white;
-
-border-radius: 10px;
-display: flex;
-box-shadow: 0px 20px 60px rgba (0, 0, 0, 0.2);
-margin-bottom: 30px;
-
+   display: flex;
 }
 
+.hint {
+   line-heigt: 1.5;
+   font-size: 12px;
+   margin-top: 5px; 
+   opacity: 0.6;
+}
 .instructions {
     padding: 16px;
     border: 1px solid #C8D9EB ;
@@ -68,8 +74,22 @@ margin-bottom: 30px;
    border-radius: 5px;
 }
 
+.hidden {
+    display: none;
+}
+
 footer {
     
     font-size: 13px;
     margin-top: 30px;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
+
+.blink {
+    animation: blink 2s step-start 0s infinite;
 }
